@@ -21,7 +21,7 @@ page=0, limit=3 this will give first 3 records
 page=0, limit=10 this will give first 10 records
 page=1, limit=4 this will skip first {{page*limit}} records i.e 4 and will give rest 4 records
 page=2, limit=3 this will skip first {{page*limit}} records i.e 6 and will give rest 3 records
-If you don;t give anything then it will give all the records
+If you don't give anything then it will give all the records
 If you only provides searchQuery then it will all the records matching with the searchQuery
 -> updateBook=> you have to pass bookId which is objectId of that book and payload in body to update
 -> deleteBook=> you have to pass bookId which is objectId of that book to delete
