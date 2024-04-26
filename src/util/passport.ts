@@ -8,7 +8,6 @@ import User from "../models/user.model";
 import constants from "../config/constants";
 import { IUser} from "../interfaces/auth.interfaces";
 
-
 passport.use(
   new JWTStrategy(
     {

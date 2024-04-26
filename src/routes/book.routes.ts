@@ -6,7 +6,6 @@ require('../util/passport');
 
 const router=express.Router();
 
-
 router.post('/add-book', passport.authenticate("jwt", { session: false }), addBook );
 router.get('/get-books', passport.authenticate("jwt", { session: false }), getBooks );
 router.put('/update-book/:bookId', passport.authenticate("jwt", { session: false }), updateBook );

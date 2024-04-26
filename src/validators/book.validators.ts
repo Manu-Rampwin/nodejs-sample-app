@@ -2,7 +2,6 @@ import Joi from "joi";
 
 import { IAddBook } from "../interfaces/book.interfaces";
 
-
 export const bookSchemaValidator = (data: IAddBook) => {
     const schema = Joi.object({
       book: Joi.object({

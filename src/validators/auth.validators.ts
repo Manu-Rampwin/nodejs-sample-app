@@ -5,7 +5,6 @@ import {
   IRegisterPayload,
 } from "../interfaces/auth.interfaces";
 
-
 export const registerSchemaValidator = (data: IRegisterPayload) => {
     const schema = Joi.object({
       user: Joi.object({
